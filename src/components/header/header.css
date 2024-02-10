@@ -1,0 +1,124 @@
+header{
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+header h2 span {
+    font-family: 'Rubik Doodle Shadow', system-ui ;
+    
+}
+header h2,h3{
+    margin: 1rem;
+}
+header h2 span:hover {
+    font-family: 'Ubuntu', sans-serif ;
+    
+}
+
+.header-container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* CTA */ 
+.cta{
+    margin: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+/* HEADER SOCIALS */
+
+.header-socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+.header-socials::after{
+    content: '';
+    width: 2px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+/* THE IMAGE */
+
+/* .me{
+    background: linear-gradient(#e0e6e4,transparent);
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    width: 574px; */
+    /* height: 910px; */
+
+/* } */
+.me{
+    --_g: 10% /45% 45% no-repeat linear-gradient(#000 0 0);
+    --m:
+      left   var(--_i,0%) top    var(--_g),
+      bottom var(--_i,0%) left   var(--_g),
+      top    var(--_i,0%) right  var(--_g),
+      right  var(--_i,0%) bottom var(--_g);
+    -webkit-mask: var(--m);
+            mask: var(--m);
+    filter: grayscale();
+    transition: .3s linear;
+    cursor: pointer;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    width: 25rem;
+    height: 25rem;
+    overflow: hidden;
+
+}
+.me:hover{
+    --_i: 10%;
+    filter: grayscale(0);
+    /* border-radius: ; */
+
+}
+.scroll-down{
+    position: absolute;
+    right: -2.2rem;
+    bottom: 6rem;
+    transform: rotate(90deg);
+    font-weight: 200;
+    font-size: 0.9rem;
+}
+
+/* MEDIA QUEIRES */ 
+
+/* MEDIUM Devices */
+
+@media screen and (max-width: 1024px) {
+    .header{
+        height: 68vh;
+    }
+}
+
+/* SMALL Devices */
+
+@media screen and (max-width: 600px) {
+    header{
+        height: 100vh;
+    }
+
+    .header-socials,
+    .scroll-down{
+        display: none;
+    }
+}
+ 
