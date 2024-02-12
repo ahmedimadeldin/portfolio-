@@ -4,7 +4,8 @@ header{
     overflow: hidden;
 }
 header h2 span {
-    font-family: 'Rubik Doodle Shadow', system-ui ;
+    font-family: 'Ubuntu', sans-serif ;
+    
     
 }
 header h2,h3{
@@ -12,7 +13,7 @@ header h2,h3{
 }
 header h2 span:hover {
     font-family: 'Ubuntu', sans-serif ;
-    
+    /* text-decoration-style: double; */
 }
 
 .header-container{

@@ -36,7 +36,7 @@ const About = () => {
               <small>+10 Projects</small>
             </article>
           </div>
-          <p>
+          <p className='line'>
             Call me Ahmed, Software Engineer , University of Khartoum graduate.
             I most enjoy building software in the sweet
             spot where design and engineering meet — things that look good but are also built well under the hood.
