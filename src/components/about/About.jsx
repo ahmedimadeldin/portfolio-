@@ -37,11 +37,11 @@ const About = () => {
             </article>
           </div>
           <p className='line'>
-            Call me Ahmed, Software Engineer , University of Khartoum graduate.
-            I most enjoy building software in the sweet
-            spot where design and engineering meet — things that look good but are also built well under the hood.
-            With an insatiable curiosity and a keen analytical mind, usually exploring vast 
-            datasets for extracting meaningfull information or fun. 
+          Call me Ahmed, a Software Engineer, University of Khartoum graduate.
+           I most enjoy building software in the sweet spot where design and engineering meet — 
+           things that look good but are also built well under the hood.
+            With an insatiable curiosity and a keen analytical mind.
+             Usually explore vast datasets for extracting meaningful information or fun. 
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's talk</a>

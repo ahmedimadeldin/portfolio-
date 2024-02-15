@@ -5,11 +5,14 @@ header{
 }
 header h2 span {
     font-family: 'Ubuntu', sans-serif ;
+    color: #fff;
     
     
 }
 header h2,h3{
     margin: 1rem;
+    color: #fff;
+    /* font-family: 'Protest Riot', sans-serif; */
 }
 header h2 span:hover {
     font-family: 'Ubuntu', sans-serif ;

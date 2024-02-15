@@ -18,8 +18,8 @@
     --color-light: #E0E6E4;
 
     --container-width-lg: 75%;
-    --container-width-md: 86%;
-    --container-width-sm: 90%;
+    --container-width-md: 100%;
+    --container-width-sm: 100%;
 
     --transition: all 500ms ease;
 
@@ -62,7 +62,7 @@ h1{
 
 section{
     margin-top: 8rem;
-    /* height: 65vh; */
+    height: 100%;
 }
 
 section  h2, section h5 {
@@ -130,13 +130,15 @@ img{
 }
 
 
+
+
 /* MEDIA QUIRIES */ 
 
 /* For Meduim Devices */
 
 @media screen and (max-width: 1024px) {
     .container{
-        width: var(--container-width-md);
+        /* width: var(--container-width-md); */
         width: 100%;
     }
 
@@ -149,7 +151,7 @@ img{
 
 @media screen and (max-width: 600px) {
     .container{
-        width: var(--container-width-sm);
+        /* width: var(--container-width-sm); */
         width: 100%;
     }
 
