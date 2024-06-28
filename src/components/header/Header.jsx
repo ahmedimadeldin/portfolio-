@@ -16,7 +16,7 @@ const Header = () => {
         <h2 className='line' ><span>Fullstack Developer </span> & <span>Data Analyst</span></h2>
         <CTA/>
         <div className='me'>
-            <img src={ME} alt="me" />
+            <img src={ME} alt="me" className='img' />
             
         </div>
             <a href="#contact" className='scroll-down'>Scroll Down <AiOutlineArrowRight/></a>

@@ -137,10 +137,10 @@ img{
 /* For Meduim Devices */
 
 @media screen and (max-width: 1024px) {
-    .container{
+    /* .container{ */
         /* width: var(--container-width-md); */
-        width: 100%;
-    }
+        /* width: 100%; */
+    /* } */
 
     section{
         margin-top: 4rem;
@@ -150,10 +150,10 @@ img{
 /* For Samll devices */
 
 @media screen and (max-width: 600px) {
-    .container{
+    /* .container{ */
         /* width: var(--container-width-sm); */
-        width: 100%;
-    }
+        /* width: 100%; */
+    /* } */
 
     section{
         margin-top: 2rem;
@@ -162,4 +162,36 @@ img{
         margin-bottom: 2rem;
     }
 }
+
+@media (max-width:1536px) {
+    .container{
+      width: 1366px;
+    }
+  }
+  
+  @media (max-width:1366px) {
+    .container{
+      width: 1280px;
+    }
+  }
+  @media (max-width:1280px) {
+    .container{
+      width: 1024px;
+    }
+  }
+  @media (max-width:1024px) {
+    .container{
+      width: 768px;
+    }
+  }
+  @media (max-width:768px) {
+    .container{
+      width: 640px;
+    }
+  }
+  @media (max-width:640px) {
+    .container{
+      width: 475px;
+    }
+  }
 
